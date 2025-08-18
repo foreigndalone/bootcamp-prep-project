@@ -21,6 +21,12 @@ body {
   position: relative;
   z-index: 1;            /* расстояние между ссылками */
 }
+li {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 .stick {
     width: 360px;
     margin: -68px auto;
@@ -45,7 +51,11 @@ section {
 h1 {
     font-size: 5vw;
     color: rgb(255,210,121);
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
+
 h2 {
     font-size: 3vw;
     color: rgb(226, 255, 227);
@@ -63,6 +73,10 @@ article {
     list-style-position: inside;
     font-size: 2vw;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .bio {
     margin: 44px auto 0;
@@ -111,5 +125,5 @@ p {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(226, 255, 227);
 }

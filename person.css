@@ -21,6 +21,12 @@ body {
   position: relative;
   z-index: 1;            /* расстояние между ссылками */
 }
+li {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 .stick {
     width: 360px;
     margin: -68px auto;
@@ -32,7 +38,11 @@ section {
 h1 {
     font-size: 5vw;
     color: rgb(80,50,19);
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
+
 div {
     display: flex;
     justify-content: center;
@@ -44,12 +54,20 @@ div {
 }
 figcaption {
     font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 blockquote {
     margin: 8vw;
     font-size: 4vw;
-    font-weight: bold;
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(80,50,19);
 }
+
 .gallery2 {
     width: 80vw;
 }
