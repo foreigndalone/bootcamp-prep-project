@@ -23,57 +23,22 @@ body {
     margin: -68px auto;
 }
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 30vw;
-}
-.hero {
+    margin-top: 2vw;
     text-align: center;
-    position: relative;
-}
-.hero-img {
-    width: 50vw;
-    position: absolute;
-    left: 25vw;
-    top: -20vw;
-    z-index: -1;
 }
 h1 {
     font-size: 5vw;
     color: rgb(255,210,121);
 }
-h2 {
-    font-size: 3vw;
-    color: rgb(226, 255, 227);
-}
-span {
-    color: rgb(176,176,176);
-}
-article {
-    margin-top: 120px;
-    text-align: center;
-    position: relative;
-}
-.biography {
-    color: rgb(226, 255, 227);
-    list-style-position: inside;
+p {
     font-size: 2vw;
-    text-align: center;
+    color: rgb(226, 255, 227);
+    max-width: 60vw;
+    margin: 10px auto;
 }
-.bio {
-    margin: 44px auto 0;
-    max-width: 40vw;
-}
-.side-img {
-  width: 20vw;   /* подгони под нужный размер */
-  margin-top: 10px;
-}
-.left {
-  float: left;
-}
-.right {
-  float: right;
+img {
+    margin-top: 2vw;
+    width: 60vw;
 }
 footer {
     margin-top: 80px;
@@ -95,11 +60,8 @@ footer {
     width: 14vw;
     margin-right: 2vw;
 }
-p {
-    font-size: 2vw;
+.text {
     max-width: 28vw;
-    text-align: left;
-    color: rgb(226, 255, 227);
 }
 .last-hat {
     width: 20vw;
