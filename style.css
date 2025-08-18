@@ -8,6 +8,7 @@ body {
   width: 360px;          /* фиксированная ширина */
   margin: 0 auto;        /* центрирование по горизонтали */
   color: rgb(226, 255, 227);
+  position: relative;
 }
 
 .menu {
@@ -17,6 +18,8 @@ body {
   display: flex;
   justify-content: center; /* все по центру */
   gap: 48px;               /* расстояние между ссылками */
+  position: relative;
+  z-index: 1;            /* расстояние между ссылками */
 }
 .stick {
     width: 360px;
@@ -105,4 +108,8 @@ p {
     width: 20vw;
     margin-top: 2vw;
     margin-bottom: 110px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
